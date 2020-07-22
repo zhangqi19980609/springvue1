@@ -11,6 +11,7 @@ import javax.annotation.ManagedBean;
 public class Springvue1Application {
 
     public static void main(String[] args) {
+        System.out.println("123");
         SpringApplication.run(Springvue1Application.class, args);
     }
 

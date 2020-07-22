@@ -34,7 +34,6 @@
     from user
     where Uid = #{uid,jdbcType=TINYINT}
   </select>
-
   <select id="selectByAll" resultMap="BaseResultMap" parameterType="java.lang.Integer">
     select <include refid="Base_Column_List" />
     from user limit #{a},10
